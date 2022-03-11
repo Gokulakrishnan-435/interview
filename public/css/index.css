@@ -1,0 +1,80 @@
+@import url("https://fonts.googleapis.com/css2?family=Nunito&display=swap");
+@import url(“https://cdn-uicons.flaticon.com/uicons-regular-rounded/css/uicons-regular-rounded.css”);
+:root {
+  --backgroundColor: #fff;
+  --primaryColor: #0d6ddf;
+  --secondaryColor: #1ac1ff;
+  --blueButtonColor: linear-gradient(140deg, #0d6ddf, #001ec1 80%);
+  --greenButtonColor: linear-gradient(140deg, #1ad857, #149f3f 80%);
+  --purpleButtonColor: linear-gradient(110deg, #001ec1, #ba19ff 80%);
+  --cardTagColor: linear-gradient(110deg, #db3737, #ffb100 80%);
+  --primaryTextColor: #333;
+  --secondaryTextColor: #727272;
+  --tertiaryTextColor: #0d6ddf;
+  --errorTextColor: #ff4136;
+  --formTextColor: #1c4870;
+  --purpleGradientTextColor: -webkit-linear-gradient(#001ec1, #ba19ff);
+  --lightShadow: 0px 1px 6px 0px #d8dce2;
+  --darkShadow: 0px 2px 10px 1px #424242;
+  --tagBackgroundColor: #0f7ce51a;
+  --placeholderColor: #81a0bd;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+body {
+  color: var(--primaryTextColor);
+  font-family: Nunito;
+  font-size: 14px;
+}
+
+#_top_header_slider {
+  min-height: 600px;
+  width: 100%;
+  background: url("../images/1stbg.png");
+  background-size: 100% 100%;
+}
+#_top_header_slider article > header {
+  border-bottom: 1px solid #ccc;
+  height: 60px;
+}
+#_top_header_slider article > header nav {
+  height: 60px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 90%;
+  margin: 0 auto;
+}
+.logoBlock div {
+  text-decoration: none;
+  font-size: 20px;
+  color: var(--primaryTextColor);
+  font-weight: bold;
+}
+.menuBlock ul {
+  display: flex;
+  list-style: none;
+  align-items: center;
+}
+.menuBlock ul li a {
+  padding: 10px;
+  color: var(--secondaryTextColor);
+  text-decoration: none;
+  text-transform: capitalize;
+  display: inline-block;
+}
+.menuBlock ul li:last-child {
+  background: var(--blueButtonColor);
+  height: 40px;
+  width: 70px;
+  border-radius: 7px;
+}
+.menuBlock ul li:last-child a {
+  color: #fff;
+  padding: 10px 20px;
+  border-radius: 5px;
+}

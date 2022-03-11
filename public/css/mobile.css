@@ -1,0 +1,5 @@
+@media screen and (max-width: 520px) {
+  ._top_header_slider article > header nav {
+    display: inline;
+  }
+}
